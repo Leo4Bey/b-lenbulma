@@ -6,7 +6,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Çarpanları bulunacak sayıyı girer misin: ");
+            Console.Write("Çarpanları bulunacak sayıyı girer misin: ");
             int sayi = Convert.ToInt16(Console.ReadLine());
 
             for (int i = 1; i <= sayi; i++)
